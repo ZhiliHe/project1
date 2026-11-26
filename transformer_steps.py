@@ -2,7 +2,7 @@
 
 Teaching example only: three token rows, four features, one attention head,
 and six MLP middle values. These toy parameters are not the learned checkpoint.
-The assessed model still needs the six TODO groups in image_encoder.py.
+The assessed encoder in image_encoder.py runs the same arithmetic at full shapes.
 This example does not implement head splitting or merging.
 """
 import numpy as np

@@ -101,7 +101,7 @@ def main():
                 print(stage+' FAIL: '+str(exc));results.append(1)
     if 1 in results:return 1
     if 2 in results:
-        print('Fill the TODOs in image_encoder.py, then check the next stage.')
+        print('image_encoder.py is incomplete; finish it, then check the next stage.')
         return 2
     print('Requested numerical checks passed. The reference file is never an encoder input.')
     return 0

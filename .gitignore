@@ -1,0 +1,11 @@
+# 课程提供的超大权重文件：仅本地保留，不推到 GitHub
+weights/image_encoder.npz
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.pyc
+.venv/
+_tmp/
+
+# 本地生成的输出（如需保留可删除这一行）
+output_tokens.npz

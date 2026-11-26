@@ -1,7 +1,7 @@
 """A tiny supplied input path: image -> patch rows -> tokens -> CLS/positions.
 
-Uses toy parameters, not a trained model. Multi-head attention remains a student
-TODO in the student image_encoder.py at the package root. This tiny example is only arithmetic,
+Uses toy parameters, not a trained model. Multi-head attention is implemented in
+image_encoder.py at the package root. This tiny example is only arithmetic,
 not the actual model input, parameter layout or reference output.
 """
 import numpy as np
